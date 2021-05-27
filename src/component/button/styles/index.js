@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const StyledButton = styled.button`
-/* position: fixed; */
-/* width:50vw; */
 color:white;
 background-color: #E50914;
 position: absolute;
@@ -18,8 +16,8 @@ border:none;
     font-size:1rem;
 } */
 
-@media(max-width:350px){
-    width: 3.4rem;
+@media(max-width:380px){
+    width: 3.3rem;
     font-size:1rem;
 }
 

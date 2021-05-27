@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { Wrapper,BoxWrapper,HeadWrapper, } from './styles'
-import Br from './styles'
+import { Wrapper,BoxWrapper,HeadWrapper,Drop } from './styles'
 import Emailbar from '../../component/emailBar'
 import Line from '../../component/line/index'
 const Para = () => (
@@ -10,19 +9,19 @@ const Para = () => (
         <Line></Line>
       <HeadWrapper>  Frequently Asked Question</HeadWrapper>
         <BoxWrapper>
-            <h1>What is Netflix?</h1>
-            <h1>Where can I watch?</h1>
-            <h1>How do I cancel?</h1>
-            <h1>What can I watch on Netflix?</h1>
-            <h1>Is Netflix good for kids?</h1>
+            {/* <h1 ></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1> */}
 
          
-            {/* <Drop></Drop>
+            <Drop>What is Netflix?</Drop>
             <Drop>How much does Netflix cost?</Drop>
-            <Drop></Drop>
-            <Drop></Drop>
-            <Drop></Drop>
-            <Drop></Drop> */}
+            <Drop>Where can I watch?</Drop>
+            <Drop>How do I cancel?</Drop>
+            <Drop>What can I watch on Netflix?</Drop>
+            <Drop>Is Netflix good for kids?</Drop>
         </BoxWrapper>
        
         <p style={{ color: "white" }}>Ready to watch? Enter your email to create or restart your membership.</p>

@@ -7,6 +7,7 @@ import CPage from './container/cPage';
 import GlobalStyle from '../src/globalStyles';
 import Footer from './component/Footer/index';
 import Para from '../src/container/para/index';
+import DropDown from '../src/component/dropDown/index'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
     <CPage></CPage>
     <Para/>
     <Footer/>
-
+    {/* <DropDown/> */}
   </>
   );
 }

@@ -6,7 +6,9 @@ const Footer = () => (
     <Wrapper>
         <Line></Line>
         <br/>
-        <QueWrapper>Questions? Call 000-800-040-1843</QueWrapper>
+        <QueWrapper>Questions? Call 000-800-040-1843
+            
+        </QueWrapper>
        <InnerWrapper>
            <OptWrapper>
             <ul>

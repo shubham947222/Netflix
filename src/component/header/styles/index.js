@@ -23,21 +23,21 @@ margin-left:42px;
 position: relative;
 top: 0;
 position: sticky;
-/* font-family: 'Oswald', sans-serif; */
 height: 50vh; 
 img{
     width:10rem;
-@media(max-width:350px){
-    width: 7rem;
-margin-left:.2rem;
-margin-top:1rem;
-
-
-
-}
-}
-
-
+    @media(max-width:450px){
+        width: 6.5rem;
+        margin-left:.2rem;
+        margin-top:1rem;
+    }
+    @media(max-width:370px){
+        width: 6.5rem;
+        margin-left:.2rem;
+        margin-top:1rem;
+    }
+    
+    }
 
 `;
 

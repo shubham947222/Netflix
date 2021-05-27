@@ -1,32 +1,38 @@
 import React from 'react'
-import { Wrapper, L1Side, R1Side,FirstWrapper,SecondWrapper,R2Side,L2Side } from './styles/index'
+import { Wrapper,FirstWrapper,SecondWrapper,InnerWrapper,Img} from './styles/index'
 import Line from '../../component/line/index'
 import Img3 from '../../assets/img3.jpg'
 import Img4 from '../../assets/img4.webp'
 
 const BPage = () =>(
-    <Wrapper>
-       
+    <>
+    
+   <Wrapper>
+       {/* <Line/> */}
         <FirstWrapper>
-            <L1Side >
-                <h1>Watch everywhere.</h1>
-                <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
-            </L1Side> 
-            
-            <R1Side> <img width="400px"src={Img3} alt="img3" /></R1Side>
+            <InnerWrapper>
+                <br/><br/>
+                 <h1>Enjoy on your TV.</h1>
+            <h2>Watch on smart TVs, PlayStation, Xbox,<br/> Chromecast, Apple TV, Blu-ray players and <br/>more.</h2>
+            </InnerWrapper>
+            <Img><img width="400px"src={Img3} alt="img1"/>   </Img>
+                      
        </FirstWrapper>
        <Line/>
-        
         <SecondWrapper>
-            <R2Side> <img width="400px"src={Img4} alt="img4" /></R2Side>
-            <L2Side >
-                <h1>Create profiles for children.</h1>
-                <h2>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h2>
-            </L2Side>             
+            <Img>
+             <img width="400px"src={Img4} alt="img1" /> 
+            </Img>
+                     
+        <InnerWrapper>
+        <br/>
+                 <h1>Enjoy on your TV.</h1>
+            <h2>Watch on smart TVs, PlayStation, Xbox,<br/> Chromecast, Apple TV, Blu-ray players and <br/>more.</h2>
+        </InnerWrapper>  
         </SecondWrapper>
         <Line/>
-
         
     </Wrapper>
+    </>
 )
 export default BPage;
