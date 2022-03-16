@@ -8,13 +8,12 @@ import Logo from '../../assets/netlogo.png';
 const Header = () => (
 
     <Wrapper>
-       
+    
         <LeftSide >
-             <img src={(Logo)} alt="Logo" />
+            <img src={(Logo)} alt="Logo" />
             </LeftSide> 
         <ButtonWrapper>SignIn</ButtonWrapper>
-           
-       
+                
     </Wrapper>
 )
 

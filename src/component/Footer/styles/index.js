@@ -68,8 +68,7 @@ margin-left:16rem;
 @media(min-width:240px){
 
     margin-left: 3rem;
- 
-    
+     
 }
 `
 

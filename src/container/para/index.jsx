@@ -7,15 +7,8 @@ const Para = () => (
     <>
     <Wrapper>
         <Line></Line>
-      <HeadWrapper>  Frequently Asked Question</HeadWrapper>
+        <HeadWrapper>  Frequently Asked Question</HeadWrapper>
         <BoxWrapper>
-            {/* <h1 ></h1>
-            <h1></h1>
-            <h1></h1>
-            <h1></h1>
-            <h1></h1> */}
-
-         
             <Drop>What is Netflix?</Drop>
             <Drop>How much does Netflix cost?</Drop>
             <Drop>Where can I watch?</Drop>
@@ -23,7 +16,6 @@ const Para = () => (
             <Drop>What can I watch on Netflix?</Drop>
             <Drop>Is Netflix good for kids?</Drop>
         </BoxWrapper>
-       
         <p style={{ color: "white" }}>Ready to watch? Enter your email to create or restart your membership.</p>
         <Emailbar />
         <br></br>
